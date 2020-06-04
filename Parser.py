@@ -14,7 +14,7 @@ class DatasetTest(Enum):
 	POSITIVE = BASE_URL_TEST + "positive_examples_anonymous/"
 	NEGATIVE = BASE_URL_TEST + "negative_examples_anonymous/"
 
-#Custom exception if the dataset isn't provided
+#Custom exception if the dataset isn't providedss
 class NoDatasetDefinedException(Exception):
 	pass
 
@@ -63,7 +63,8 @@ class Parser:
 
 			dataset_posts = []
 			for file in files:
-				tree = ET.parse(dataset.value+file)
+				path = dataset.value+file
+				tree = ET.parse(path.strip())
 
 				id = ""
 				for child in tree.getroot():
@@ -91,3 +92,9 @@ class Parser:
 					dataset_posts.append(post)
 			data[dataset] = dataset_posts
 		return data
+
+def main():
+	parser = Parser([DatasetTraining.POSITIVE,DatasetTraining.NEGATIVE,DatasetTest.POSITIVE,DatasetTest.NEGATIVE])
+	parser.parse()
+
+main()

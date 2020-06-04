@@ -19,4 +19,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * **[TakeLab](http://takelab.fer.hr)**
-* **[FER](https://www.fer.unizg.hr/)*
+* **[FER](https://www.fer.unizg.hr/)**

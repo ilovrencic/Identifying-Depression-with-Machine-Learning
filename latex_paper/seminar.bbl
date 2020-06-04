@@ -1,0 +1,45 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bird et~al.(2009)Bird, Loper, i Klein]{python}
+S.~Bird, E.~Loper, i E.~Klein.
+\newblock Natural language processing with python.
+\newblock 2009.
+
+\bibitem[Fradkin i Muchnik(2006)]{fradkin2006}
+Dmitriy Fradkin i Ilya Muchnik.
+\newblock Support vector machines for classification.
+\newblock \emph{DIMACS Series in Discrete Mathematics and Theoretical Computer
+  Science}, 2006.
+
+\bibitem[Hosmer i Lemeshow(2000)]{logistic}
+David Hosmer i Stanley Lemeshow.
+\newblock Applied logistic regression (2nd ed).
+\newblock 2000.
+
+\bibitem[Nadeem et~al.(2016)Nadeem, Horn, i Coppersmith]{depression}
+Moin Nadeem, Mike Horn, i Glen Coppersmith.
+\newblock Identifying depression on twitter.
+\newblock 2016.
+
+\bibitem[Qntfy et~al.(2015)Qntfy, M.Drezde, C.Harman, i
+  K.Hollingshead]{clpsych}
+G.C. Qntfy, M.Drezde, C.Harman, i K.Hollingshead.
+\newblock Clpsych 2015 shared task: Depression and ptsd on twitter.
+\newblock 2015.
+
+\bibitem[W.S.Noble(2006)]{svm}
+W.S.Noble.
+\newblock What is a support vector machine?
+\newblock 2006.
+
+\bibitem[Yates et~al.(2017)Yates, Cohan, i Goharian]{rsdd}
+Andrew Yates, Arman Cohan, i Nazli Goharian.
+\newblock Depression and self-harm risk assessment in online forums.
+\newblock 2017.
+
+\end{thebibliography}

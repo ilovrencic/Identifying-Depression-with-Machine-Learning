@@ -2,7 +2,7 @@
 
 ### What is this?
 
-This is a reimplementation of the "Identifying Twitter on Twitter" paper. The paper was published by researchers from Johns Hopkins University (2016.). 
+This is a reimplementation of the "Identifying Depression on Twitter" paper. The paper was published by researchers from Johns Hopkins University (2016.). 
 
 ### How to recreate the experiments and how to use it? 
 

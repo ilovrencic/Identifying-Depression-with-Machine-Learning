@@ -2,11 +2,11 @@
 
 ### What is this?
 
-This is a reimplementation of the original "Identifying Twitter on Twitter" paper. The paper was published by researchers from Johns Hopkins University (2016.). 
+This is a reimplementation of the "Identifying Twitter on Twitter" paper. The paper was published by researchers from Johns Hopkins University (2016.). 
 
 ### How to recreate the experiments and how to use it? 
 
-Final model is placed in the **Identifying-Depression-with-Machine-Learning.ipynb** notebook. To use it, open the file and follow the instructions.
+The final model is placed in the **Identifying-Depression-with-Machine-Learning.ipynb** notebook. To use it, open the file and follow the instructions.
 
 ## Authors
 
